@@ -6,7 +6,12 @@
 class _2Dshape
 {
 public:
-    _2Dshape(const char* name, size_t z);
+    _2Dshape(const char* name, size_t z)
+        : name { name }
+        , noOfSides { z }
+    {
+    }
+    
     virtual double perimeter() = 0;
     virtual double area() = 0;
     virtual void disp() = 0;

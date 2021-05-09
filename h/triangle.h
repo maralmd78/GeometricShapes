@@ -2,6 +2,7 @@
 #define _TRIANGLE_H_
 
 #include <iostream>
+#include <cmath>
 #include "2Dshape.h"
 
 class Triangle : public _2Dshape
