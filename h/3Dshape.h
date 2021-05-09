@@ -7,7 +7,13 @@
 class _3Dshape
 {
 public:
-    _3Dshape(const char* type, double h, _2Dshape* base);
+    _3Dshape(const char* type, double h, _2Dshape* base)
+        : type { type }
+        , height { h }
+        , base { base } 
+    {
+    }
+    
     virtual double volume() = 0;
     virtual double area() = 0;
     
