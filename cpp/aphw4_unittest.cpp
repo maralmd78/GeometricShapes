@@ -10,7 +10,7 @@
 namespace
 {
 
-/*
+
 TEST(APHW4Test, Test1)
 {
     Triangle t{8, 5};
@@ -19,6 +19,7 @@ TEST(APHW4Test, Test1)
     r.disp();
     EXPECT_EQ(true, (r.perimeter() == 20) && (t.area() == 12));
 }
+
 
 TEST(APHW4Test, Test2)
 {
@@ -38,5 +39,5 @@ TEST(APHW4Test, Test3)
     EXPECT_EQ(true, (p2.area() < 71)&&(p2.area() > 70.5));   //ans: 70.83
     EXPECT_EQ(true, (p2.volume() == 32));   
 }
-*/
+
 }

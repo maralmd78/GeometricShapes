@@ -8,9 +8,9 @@ class _3Dshape
 {
 public:
     _3Dshape(const char* type, double h, _2Dshape* base)
-        : type { type }
+        : base { base} 
         , height { h }
-        , base { base } 
+        , type { type} 
     {
     }
     

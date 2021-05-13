@@ -15,7 +15,10 @@ public:
     virtual double perimeter() = 0;
     virtual double area() = 0;
     virtual void disp() = 0;
-    const char* getName();
+    const char* getName()
+    {
+        return name;
+    }
     
 private:    
     const char* name; 

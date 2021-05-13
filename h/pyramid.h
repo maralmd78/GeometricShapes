@@ -8,6 +8,10 @@ class Pyramid : public _3Dshape
 {
 public:
     Pyramid(double h, _2Dshape* base, size_t pharaoh);
+    Pyramid(const Pyramid& p);
+    Pyramid(Pyramid&& p);
+    Pyramid() = default;
+    ~Pyramid();
     double volume() override;
     double area() override;
     friend std::ostream& operator<<(std::ostream& os, const Pyramid& p);

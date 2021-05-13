@@ -29,12 +29,13 @@ void Triangle::disp()
 
 double Triangle::perimeter()
 {  
-    return sqrt( (side * side) + (base/2) * (base/2));
+   
+   return (base + 2 * side);
 }
 
 double Triangle::area()
 {
-    double area = (base * side)/2;
-    return area;
+    
+    return ((sqrt((side * side) - (base* base /4))) * base) /2;
 
 }

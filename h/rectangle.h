@@ -11,6 +11,7 @@ public:
     void disp() override;
     double perimeter() override;
     double area() override;
+    friend class Pyramid;
     
 private:
     double length;
