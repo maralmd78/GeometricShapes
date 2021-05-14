@@ -12,6 +12,7 @@ public:
     Pyramid(Pyramid&& p);
     Pyramid() = default;
     ~Pyramid();
+    Pyramid& operator=(const Pyramid& p);
     double volume() override;
     double area() override;
     friend std::ostream& operator<<(std::ostream& os, const Pyramid& p);

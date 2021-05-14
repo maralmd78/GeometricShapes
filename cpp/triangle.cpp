@@ -17,7 +17,10 @@ void Triangle::disp()
         for(size_t j{1}; j <= (2*side -1); j++)
         {
             if(i == side || j ==1 || j== 2*i -1)
+            {
                 std::cout << "*";
+            }
+                
             else    
                 std::cout << " ";
         }
